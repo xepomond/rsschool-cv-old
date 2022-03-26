@@ -1,0 +1,14 @@
+
+# Mudryi Andrii
+
+---
+
+### Contacts:
++ Discord: Xepomond#3481
++ E-mail: anka4717@gmail.com
++ Tel: +380991553104
+
+---
+
+### About Me:
+_I work well in a team and learn quickly. I`am good at communicate  with people. My goal is to become a junior front-end developer. I believe that the future belongs to technology and programming. I want to participate to our common future._
