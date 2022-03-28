@@ -9,12 +9,16 @@ body {
    margin: 0;
    padding: 0;
    background-color: #CCCCFF;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 1.5;
 
 
 }
 .container {
 max-width: 1440px;
 margin: 0 auto;
+background-color: #6699CC;
 }
 
 
@@ -66,4 +70,24 @@ margin: 0 auto;
    background-color: #6666FF;
    text-align: center;
    font-size: 32px;
+   text-transform: uppercase;
 }
+
+
+main {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+
+.section {
+   width: 50%;
+   border: 1px;
+}
+
+
+@media (max-width: 768px) {
+   .section {
+     width: 100%;
+   }
+ }
