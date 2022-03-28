@@ -130,3 +130,15 @@ main {
    height: 50px;
  }
 
+
+ .section-footer__git {
+    text-decoration: none;
+    color: #000000
+ }
+
+
+ .section-footer__git:hover {
+   text-decoration: none;
+   color: #ffffff;
+}
+
