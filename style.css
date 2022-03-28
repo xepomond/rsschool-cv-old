@@ -18,9 +18,9 @@ body {
 
 
 .container {
-max-width: 1440px;
+max-width: 1280px;
 margin: 0 auto;
-background-color: #6699CC;
+background-color: #8b95b4;
 }
 
 
@@ -30,9 +30,10 @@ background-color: #6699CC;
    justify-content: center;
    text-align: center;
    list-style-type: none;
-   background-color: #0033FF;
+   background-color: #003366;
    padding: 5px;
    margin: 0px;
+   border: 1px solid #000000;
 }
 
 
@@ -46,7 +47,7 @@ background-color: #6699CC;
 .nav-item {
    width: 120px;
    height: auto;
-   border: 1px solid blue;
+   border: 1px solid #000000;
    border-radius: 30px;
    padding: 10px;
    margin: 5px;
@@ -62,6 +63,8 @@ background-color: #6699CC;
 
 .text-header {
    margin-top: 0px;
+   border: 1px solid #000000;
+   border-top: 0px;
 }
 
 
@@ -69,7 +72,7 @@ background-color: #6699CC;
    display: flex;
    width: 100%;
    height: 300px;
-   background-color: #6666FF;
+   background-color: #436093;
    padding: 5px;
 }
 
@@ -77,7 +80,7 @@ background-color: #6699CC;
 .text-header__h1 {
    flex-wrap: wrap;
    flex-grow: 0.85;
-   background-color: #6666FF;
+   background-color: #436093;
    text-align: center;
    font-size: 32px;
    text-transform: uppercase;
@@ -120,6 +123,9 @@ main {
     flex-direction:  row;
     flex-wrap: wrap;
     justify-content: space-around; 
+    background-color: #003366;
+    border: 1px solid #000000;
+    color:#ffffff;
  }
 
 
@@ -128,17 +134,18 @@ main {
    justify-content: space-around;
    width: 50px;
    height: 50px;
+   padding-top: 15px;
  }
 
 
  .section-footer__git {
     text-decoration: none;
-    color: #000000
+    color: #ffffff
  }
 
 
  .section-footer__git:hover {
    text-decoration: none;
-   color: #ffffff;
-}
-
+   color: #000000;
+   text-decoration: underline;
+ }
