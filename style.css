@@ -1,1 +1,69 @@
-/* see you */
+* {
+   box-sizing: border-box;
+ }
+
+
+body {
+   font-family: 'Work Sans', sans-serif;
+   min-height: 100vh;
+   margin: 0;
+   padding: 0;
+   background-color: #CCCCFF;
+
+
+}
+.container {
+max-width: 1440px;
+margin: 0 auto;
+}
+
+
+.nav-list {
+   display: flex;
+   justify-content: flex-end;
+   text-align: center;
+   list-style-type: none;
+   background-color: #9999FF;
+   padding: 5px;
+   margin: 0px;
+}
+
+
+.nav-item {
+   width: 120px;
+   height: auto;
+   border: 1px solid blue;
+   border-radius: 30px;
+   padding: 10px;
+   margin: 5px;
+   background-color: #333399;
+}
+
+
+.nav-link {
+   color: #ffffff;
+   text-decoration: none;
+}
+
+
+.text-header {
+   margin-top: 0px;
+}
+
+
+.text-header__photo {
+   display: flex;
+   align-items: left;
+   width: 100%;
+   height: 300px;
+   background-color: #6666FF;
+   padding: 5px;
+}
+
+
+.text-header__h1 {
+   flex-grow: 0.85;
+   background-color: #6666FF;
+   text-align: center;
+   font-size: 32px;
+}
