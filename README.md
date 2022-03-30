@@ -1,1 +1,1 @@
-# rsschool-cv
+https://xepomond.github.io/rsschool-cv/

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link rel="icon" href="assets/favicon.ico">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,500;0,700;0,800;0,900;1,100;1,500;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   <title>CV</title>
+</head>
+
+
+<body>
+   <header class="header">
+      <div class="container">   
+         <nav class="nav">
+            <ul class="nav-list">
+               <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+               <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+               <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+               <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+               <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+               <li class="nav-item"><a href="#englidh" class="nav-link">English</a></li>
+               <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            </ul>
+         </nav>
+         <div class="text-header">
+            <div class="text-header__photo">
+               <div class="text-header__h1">
+                  <h1>Mudryi Andrii</h1>
+                  <h3>Front End Developer</h3>
+               </div>
+                <img src="assets/img/portrait.jpg" alt="my photo">
+            </div>
+         </div>
+      </div>
+   </header>
+
+
+   <main class="main">
+      <div class="container">
+         <section class="section" id="summary">
+            <h2>About me:</h2>
+            <p>I work well in a team and learn quickly. I`am good at communicate with people.
+               My goal is to become a junior front-end developer. 
+               I believe that the future belongs to technology and programming. 
+               I want to participate to our common future.</p>           
+         </section>
+         <section class="section" id="education">
+            <h2>Education:</h2>
+            <p>Dnipro University of Technology, software engineering.</p>
+         </section>
+         <section class="section" id="skills">
+            <h2>Skills:</h2>
+            <ul>
+               <li>HTML</li>
+                <li>CSS</li>
+               <li>JavaScript</li>
+                <li>Git</li>
+            </ul>
+         </section>
+         <section class="section" id="code">
+            <h2>Code example</h2>
+            <pre><code>function capitalizeWord(word, firstLetter) {
+   firstLetter = word.slice(0, 1).toUpperCase();
+   word =  firstLetter + word.slice(1);
+   return word;
+}</code></pre>
+         </section>
+         <section class="section" id="experience">
+            <h2>Experience:</h2>
+            <p>I don’t have experience yet.</p>
+         </section>
+         <section class="section" id="english">
+            <h2>English:</h2>
+            <p>Intermediate(B1).</p>
+         </section>
+      </div>
+   </main>
+
+
+   <footer class="footer">
+      <div class="container">
+         <div class="section-footer">
+            <div class="section-footer__contacts" id="contacts">
+               <p>Tel: +380991553104</p> 
+               <p>E-mail: anka4717@gmail.com</p>
+               <p>Discord: Xepomond#3481</p>
+               <p><a class="section-footer__git" href="https://github.com/xepomond" target="_blank">GitHub</a></p>
+                  <a class="section-footer__school" href="https://rs.school/js/" target="_blank">
+               <img src="./assets/img/rs_school_js.svg" alt="logo RSSchool">
+                  </a>
+            </div>
+         </div>
+      </div>
+   </footer>
+</body>
+</html>
